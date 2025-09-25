@@ -55,7 +55,7 @@ public class UtilitiesClass {
 		alert.dismiss();
 	}
 	
-	public void takeScreenShot(String baseFileName) {
+	public String takeScreenShot(String baseFileName) {
 		File sourceFileName = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 		String finalFileName = baseFileName + "_" + timestamp + ".png";
@@ -67,6 +67,7 @@ public class UtilitiesClass {
 		} catch (Exception e) {
 			System.out.println("Failed to save screenshot" + e.getMessage());
 		}
+		return null;
 	}
 	
 	public void selectOption(WebElement a, int i) {
@@ -75,15 +76,14 @@ public class UtilitiesClass {
 		sel.selectByIndex(i);
 	}
 	
-	// --- NEW METHOD: Wait for an element to be visible ---
 	public WebElement waitForTheVisibility(By locator) {
-		if (wait == null) {
-			wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		}
-		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)); 
+		try {
+			return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)); 
+		} catch (Exception e) {
+			throw new RuntimeException("Element not visible: " + locator, e);
+		} 
 	}
 	
-	// --- NEW METHOD: Check if an element is present (useful for verification without hard waits) ---
 	public boolean isElementPresent(By locator) {
 		try {
 			driver.findElement(locator);

@@ -6,4 +6,9 @@
       <class name="testPackage.LoginRegressionTest"/>
     </classes>
   </test> <!-- RegressionTest -->
-</suite> <!-- Suite -->
+  
+  <listeners>
+  <listener class-name="listenerspack.ExtentReportListener"/>
+</listeners>
+
+ </suite> <!-- Suite -->
