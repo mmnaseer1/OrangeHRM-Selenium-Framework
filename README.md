@@ -61,7 +61,7 @@ src
 ### Clone
 ```bash
 git clone https://github.com/mmnaseer1/selenium-testng-framework.git
-cd selenium-testng-framework
+cd OrangeHRM-Selenium-Framework
 ```
 
 ### Install Dependencies
