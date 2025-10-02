@@ -8,7 +8,7 @@
   </test> <!-- RegressionTest -->
   
   <listeners>
-  <listener class-name="listenerspack.ExtentReportListener"/>
+  <listener class-name="extentreporter.ExtentReportListener"/>
 </listeners>
 
  </suite> <!-- Suite -->

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T19:15:56 EDT" name="Suite" finished-at="2025-09-24T19:16:05 EDT" duration-ms="9270">
+  <suite started-at="2025-10-02T14:39:00 EDT" name="Suite" finished-at="2025-10-02T14:39:11 EDT" duration-ms="10360">
     <groups>
     </groups>
-    <test started-at="2025-09-24T19:15:56 EDT" name="RegressionTest" finished-at="2025-09-24T19:16:05 EDT" duration-ms="9270">
+    <test started-at="2025-10-02T14:39:00 EDT" name="RegressionTest" finished-at="2025-10-02T14:39:11 EDT" duration-ms="10360">
       <class name="testPackage.LoginRegressionTest">
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:15:56 EDT" name="testSetup" finished-at="2025-09-24T19:15:58 EDT" duration-ms="1939" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:01 EDT" name="testSetup" finished-at="2025-10-02T14:39:03 EDT" duration-ms="2380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:15:58 EDT" name="setup" finished-at="2025-09-24T19:15:58 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:03 EDT" name="setup" finished-at="2025-10-02T14:39:03 EDT" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:15:58 EDT" name="invalidLogin" data-provider="OrangeHRM_LoginData" finished-at="2025-09-24T19:15:59 EDT" duration-ms="979" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:03 EDT" name="invalidLogin" data-provider="OrangeHRM_LoginData" finished-at="2025-10-02T14:39:05 EDT" duration-ms="1808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,15 +36,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:15:59 EDT" name="teardown" finished-at="2025-09-24T19:15:59 EDT" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:05 EDT" name="teardown" finished-at="2025-10-02T14:39:05 EDT" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:15:59 EDT" name="testSetup" finished-at="2025-09-24T19:16:01 EDT" duration-ms="1507" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:05 EDT" name="testSetup" finished-at="2025-10-02T14:39:07 EDT" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:01 EDT" name="invalidLogin" data-provider="OrangeHRM_LoginData" finished-at="2025-09-24T19:16:02 EDT" duration-ms="932" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:07 EDT" name="invalidLogin" data-provider="OrangeHRM_LoginData" finished-at="2025-10-02T14:39:08 EDT" duration-ms="839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,23 +65,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:01 EDT" name="setup" finished-at="2025-09-24T19:16:01 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:07 EDT" name="setup" finished-at="2025-10-02T14:39:07 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:02 EDT" name="teardown" finished-at="2025-09-24T19:16:02 EDT" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:08 EDT" name="teardown" finished-at="2025-10-02T14:39:08 EDT" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:02 EDT" name="testSetup" finished-at="2025-09-24T19:16:03 EDT" duration-ms="1474" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:08 EDT" name="testSetup" finished-at="2025-10-02T14:39:09 EDT" duration-ms="1538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:03 EDT" name="setup" finished-at="2025-09-24T19:16:03 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:09 EDT" name="setup" finished-at="2025-10-02T14:39:09 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:03 EDT" name="validLogin" data-provider="OrangeHRM_LoginData" finished-at="2025-09-24T19:16:05 EDT" duration-ms="1263" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:09 EDT" name="validLogin" data-provider="OrangeHRM_LoginData" finished-at="2025-10-02T14:39:10 EDT" duration-ms="1199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-09-24T19:16:05 EDT" name="teardown" finished-at="2025-09-24T19:16:05 EDT" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testPackage.LoginRegressionTest@14cd1699]" started-at="2025-10-02T14:39:10 EDT" name="teardown" finished-at="2025-10-02T14:39:11 EDT" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
