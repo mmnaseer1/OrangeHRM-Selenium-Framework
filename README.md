@@ -60,7 +60,7 @@ src
 
 ### Clone
 ```bash
-git clone https://github.com/your-username/selenium-testng-framework.git
+git clone https://github.com/mmnaseer1/selenium-testng-framework.git
 cd selenium-testng-framework
 ```
 
